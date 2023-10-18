@@ -434,6 +434,8 @@ module.exports = {
       );
   },
   // Deprecated Prop Types
+  // This is not a permanent fix 
+  // https://stackoverflow.com/a/73166444
   get ColorPropType(): $FlowFixMe {
     return require('deprecated-react-native-prop-types').ColorPropType
   },
